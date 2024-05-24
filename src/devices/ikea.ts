@@ -211,10 +211,13 @@ const definitions: Definition[] = [
         extend: [ikeaLight({colorTemp: true}), identify()],
     },
     {
-        zigbeeModel: ['TRADFRI bulb E27 WS globe 1055lm'],
+        zigbeeModel: [
+            'TRADFRI bulb E27 WS globe 1055lm',
+            'TRADFRI bulb E26 WS globe 1055lm',
+        ],
         model: 'LED2201G8',
         vendor: 'IKEA',
-        description: 'TRADFRI bulb E27, white spectrum, globe, opal, 1055 lm',
+        description: 'TRADFRI bulb E26/27, white spectrum, globe, opal, 1055 lm',
         extend: [ikeaLight({colorTemp: true}), identify()],
     },
     {
@@ -253,7 +256,7 @@ const definitions: Definition[] = [
     },
     // #region E12/E14/E17
     {
-        zigbeeModel: ['TRADFRI bulb E14 WS candle 470lm'],
+        zigbeeModel: ['TRADFRI bulb E14 WS candle 470lm', 'TRADFRI bulb E12 WS candle 450lm'],
         model: 'LED2107C4',
         vendor: 'IKEA',
         description: 'TRADFRI bulb E14, white spectrum, candle, opal, 470 lm',
